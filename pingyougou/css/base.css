@@ -1,0 +1,37 @@
+/* 清楚内外边距 */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 让倾斜的字体不倾斜 */
+em,
+i {
+	font-style: normal;
+}
+/* 去掉列表前的小圆点 */
+li {
+	list-style: none;
+}
+img {
+	border: 0; /* 为了匹配ie6 */
+	vertical-align: middle;
+}
+/* 让鼠标变成小手 */
+button {
+	cursor: pointer;
+}
+/* 字体统一颜色 */
+a {
+    color: #666;
+    text-decoration: none
+}
+a:hover {
+    color: #c81623
+}
+button,
+input {
+	font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB',
+	\\5B8B\4F53,sans-serif;
+	/* 取消轮廓线 */
+	outline: none;
+}

@@ -1,0 +1,158 @@
+/* 列表页css */
+.sk {
+	position: absolute;
+	height: 32px;
+	border-left: 1px solid #B1191A;
+	margin: 40px 0 0 185px;
+	padding: 5px 0 0 15px;
+}
+.sk_list li {
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+} 
+.sk_list li a {
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+}
+.sk_list li a:hover {
+	color: #C81523;
+}
+.sk_con li {
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_con li a {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'icomoon';
+}
+.sk_con li a:hover {
+	color: #C81523;
+}
+/* 列表页内容区域 */
+.sk_container_bd {
+	margin-top: 25px;
+	overflow: hidden;
+}
+.sk_container_bd ul {
+	width: 1220px;
+}
+.sk_goods {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+    border: 1px solid transparent;
+    margin: 0 13px 15px 0;
+}
+.sk_goods:hover {
+	border: 1px solid #e12228;
+}
+.sk_goods_title {
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	padding: 10px 10px;
+}
+.sk_goods_price {
+	padding: 2px 15px;
+	color: #a4a4a4;
+}
+.sk_goods_price span {
+	font-size: 22px;
+	font-weight: 700;
+	color: #E12228;
+}
+.sk_goods_progress {
+	padding: 0 10px;
+	font-size: 14px;
+}
+.sk_goods_progress i,
+.sk_goods_progress em {
+	color: #F24349;
+}
+.bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #B1191A;
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 8px;
+}
+.bar_in {
+	width: 87%;
+	height: 100%;
+	background-color: #f24349;
+}
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #B1191A;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.page {
+	margin: 30px 0;
+	text-align: center;
+}
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+	line-height: 36px;
+}
+.page_num a:hover {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 83px;
+}
+.page_skip {
+	margin-left: 20px;
+}
+.page_skip input {
+	width: 60px;
+	height: 36px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.page_skip input:focus {
+	border: 1px solid blue;
+}
+.page_skip button {
+	width: 50px;
+	height: 36px;
+	border: 1px solid #ccc;
+}
+/* 固定导航栏 */
+.fiexdtool {
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	margin-left: -700px;
+}
+.fiexdtool li {
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background-color: #B1191A;
+}
+.fiexdtool li:hover {
+	background-color: #f7f7f7;
+	color: #B1191A;
+	cursor:pointer;
+}
